@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="LayoutExercise.RelativePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <RelativeLayout>
+        <BoxView
+            x:Name="banner"
+            BackgroundColor="#f7f7f7"
+            RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,
+                                                                   Property=Height,
+                                                                   Factor=0.3}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,
+                                                                  Property=Width,
+                                                                  Factor=1}" />
+        <StackLayout
+            HorizontalOptions="Center"
+            RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,
+                                                                   Property=Height,
+                                                                   Factor=0.3}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,
+                                                                  Property=Width,
+                                                                  Factor=1}"
+            VerticalOptions="Center">
+            <Label
+                FontAttributes="Bold"
+                FontSize="60"
+                HorizontalOptions="Center"
+                Text="$11.95"
+                TextColor="#33353a" />
+            <Button
+                BackgroundColor="#1695A3"
+                BorderRadius="15"
+                FontAttributes="Bold"
+                FontSize="15"
+                HeightRequest="40"
+                Text="Add $7.99 Credit"
+                TextColor="#fff" />
+        </StackLayout>
+
+        <StackLayout RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=banner, Property=Height, Factor=1, Constant=30}">
+            <Label
+                FontAttributes="Bold"
+                FontSize="15"
+                HorizontalOptions="Center"
+                Text="Why pay for credit?" />
+            <Label
+                FontSize="13"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center">
+                Because you can reach people who aren't on
+                SkyApp by calling mobile and landline
+                numbers, or spending SMS, at low-cost rates.
+            </Label>
+        </StackLayout>
+
+
+    </RelativeLayout>
+</ContentPage>

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7gdoSr7eE+F5OYlXe638ETVwVc1kXkrg1UpvpyxYgc09MwbgHTF13uaFNxzvbTfVOodVBWVSi8Evm3hL2qWsVg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jina\\Desktop\\Xamarin.Forms Projects\\LayoutExercise\\LayoutExercise\\LayoutExercise.iOS\\LayoutExercise.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}
