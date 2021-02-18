@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "lckf5jQLk4Cri3HuRePZLqZmQVjrCLijf6HHinCN/LPY5r9oJtnrKvh4pMxiq25ljwi5EIiKsoTzo3NPXgioqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jina\\Desktop\\QuotesApp\\QuotesApp\\QuotesApp.iOS\\QuotesApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jina\\.nuget\\packages\\microsoft.bcl\\1.1.10\\microsoft.bcl.1.1.10.nupkg.sha512",
+    "C:\\Users\\Jina\\.nuget\\packages\\microsoft.bcl.build\\1.0.14\\microsoft.bcl.build.1.0.14.nupkg.sha512",
+    "C:\\Users\\Jina\\.nuget\\packages\\microsoft.net.http\\2.2.29\\microsoft.net.http.2.2.29.nupkg.sha512",
+    "C:\\Users\\Jina\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

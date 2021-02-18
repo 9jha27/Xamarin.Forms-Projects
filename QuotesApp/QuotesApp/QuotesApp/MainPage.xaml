@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="QuotesApp.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <StackLayout BindingContext="{x:Reference slider}">
+        <Button
+            Clicked="Button_Clicked"
+            FontSize="Title"
+            Text="Next" />
+
+        <Label
+            BindingContext="{x:Reference slider}"
+            Opacity="{Binding Value}"
+            Text="{Binding Value, StringFormat='Font Size: {0,F0}'}" />
+        <Slider
+            x:Name="slider"
+            Maximum="30"
+            Minimum="16" />
+
+        <Label
+            x:Name="Quotes"
+            FontSize="{Binding Value}"
+            Text="" />
+
+    </StackLayout>
+
+</ContentPage>

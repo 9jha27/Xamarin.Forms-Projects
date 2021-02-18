@@ -1,0 +1,14 @@
+C:\Users\Jina\Desktop\QuotesApp\QuotesApp\QuotesApp\bin\Debug\netstandard2.0\QuotesApp.deps.json
+C:\Users\Jina\Desktop\QuotesApp\QuotesApp\QuotesApp\bin\Debug\netstandard2.0\QuotesApp.dll
+C:\Users\Jina\Desktop\QuotesApp\QuotesApp\QuotesApp\bin\Debug\netstandard2.0\ref\QuotesApp.dll
+C:\Users\Jina\Desktop\QuotesApp\QuotesApp\QuotesApp\bin\Debug\netstandard2.0\QuotesApp.pdb
+C:\Users\Jina\Desktop\QuotesApp\QuotesApp\QuotesApp\obj\Debug\netstandard2.0\QuotesApp.csprojAssemblyReference.cache
+C:\Users\Jina\Desktop\QuotesApp\QuotesApp\QuotesApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jina\Desktop\QuotesApp\QuotesApp\QuotesApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jina\Desktop\QuotesApp\QuotesApp\QuotesApp\obj\Debug\netstandard2.0\QuotesApp.AssemblyInfoInputs.cache
+C:\Users\Jina\Desktop\QuotesApp\QuotesApp\QuotesApp\obj\Debug\netstandard2.0\QuotesApp.AssemblyInfo.cs
+C:\Users\Jina\Desktop\QuotesApp\QuotesApp\QuotesApp\obj\Debug\netstandard2.0\QuotesApp.csproj.CoreCompileInputs.cache
+C:\Users\Jina\Desktop\QuotesApp\QuotesApp\QuotesApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jina\Desktop\QuotesApp\QuotesApp\QuotesApp\obj\Debug\netstandard2.0\QuotesApp.dll
+C:\Users\Jina\Desktop\QuotesApp\QuotesApp\QuotesApp\obj\Debug\netstandard2.0\ref\QuotesApp.dll
+C:\Users\Jina\Desktop\QuotesApp\QuotesApp\QuotesApp\obj\Debug\netstandard2.0\QuotesApp.pdb
