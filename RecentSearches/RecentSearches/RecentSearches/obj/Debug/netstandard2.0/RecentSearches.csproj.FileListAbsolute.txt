@@ -12,3 +12,4 @@ C:\Users\Jina\Desktop\Xamarin.Forms Projects\RecentSearches\RecentSearches\Recen
 C:\Users\Jina\Desktop\Xamarin.Forms Projects\RecentSearches\RecentSearches\RecentSearches\obj\Debug\netstandard2.0\RecentSearches.dll
 C:\Users\Jina\Desktop\Xamarin.Forms Projects\RecentSearches\RecentSearches\RecentSearches\obj\Debug\netstandard2.0\ref\RecentSearches.dll
 C:\Users\Jina\Desktop\Xamarin.Forms Projects\RecentSearches\RecentSearches\RecentSearches\obj\Debug\netstandard2.0\RecentSearches.pdb
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\RecentSearches\RecentSearches\RecentSearches\obj\Debug\netstandard2.0\DetailsPage.xaml.g.cs

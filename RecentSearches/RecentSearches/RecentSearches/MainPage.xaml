@@ -1,43 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage
+<FlyoutPage
     x:Class="RecentSearches.MainPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
-    <ContentPage.Padding>
-        <OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0" />
-    </ContentPage.Padding>
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    IsPresented="True">
+    <FlyoutPage.Flyout>
+        <ContentPage Title="Searches">
+            <ContentPage.Padding>
+                <OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0" />
+            </ContentPage.Padding>
 
-    <StackLayout>
-        <SearchBar Placeholder="Search... " TextChanged="SearchBar_TextChanged" />
-        <ListView
-            x:Name="listView"
-            GroupDisplayBinding="{Binding Title}"
-            IsGroupingEnabled="True"
-            IsPullToRefreshEnabled="True"
-            ItemSelected="listView_ItemSelected"
-            Refreshing="listView_Refreshing">
-            <ListView.ItemTemplate>
-                <DataTemplate>
+            <StackLayout>
+                <SearchBar Placeholder="Search... " TextChanged="SearchBar_TextChanged" />
+                <ListView
+                    x:Name="listView"
+                    GroupDisplayBinding="{Binding Title}"
+                    IsGroupingEnabled="True"
+                    IsPullToRefreshEnabled="True"
+                    ItemSelected="listView_ItemSelected"
+                    Refreshing="listView_Refreshing">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
 
-                    <TextCell Detail="{Binding CheckIn, StringFormat='{}{0:MM/dd/yyyy}'}" Text="{Binding Location}">
-                        <TextCell.ContextActions>
-                            <MenuItem
-                                Clicked="Delete_Clicked"
-                                CommandParameter="{Binding .}"
-                                IsDestructive="True"
-                                Text="Delete" />
-                        </TextCell.ContextActions>
+                            <TextCell Detail="{Binding CheckIn, StringFormat='{}{0:MM/dd/yyyy}'}" Text="{Binding Location}">
+                                <TextCell.ContextActions>
+                                    <MenuItem
+                                        Clicked="Delete_Clicked"
+                                        CommandParameter="{Binding .}"
+                                        IsDestructive="True"
+                                        Text="Delete" />
+                                </TextCell.ContextActions>
 
-                    </TextCell>
-
-
-
-
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-    </StackLayout>
+                            </TextCell>
 
 
 
-</ContentPage>
+
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+
+
+
+        </ContentPage>
+    </FlyoutPage.Flyout>
+    <FlyoutPage.Detail>
+        <ContentPage />
+    </FlyoutPage.Detail>
+</FlyoutPage>

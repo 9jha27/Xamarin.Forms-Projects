@@ -10,16 +10,18 @@ using Xamarin.Forms;
 
 namespace RecentSearches
 {
-    public partial class MainPage : ContentPage
+    public partial class MainPage : FlyoutPage
     {
         private SearchService _searchServices; //initialize the SearchService class
         private List<SearchGroup> _searchGroups;
 
+     
         public MainPage()
         {
             _searchServices = new SearchService();
 
             InitializeComponent();
+
 
             PopulateListView(_searchServices.GetRecentSearches());
             
@@ -56,10 +58,15 @@ namespace RecentSearches
             listView.EndRefresh();
         }
 
-        private void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        void listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
+          
+            //if (e.SelectedItem == null) return;
             var search = e.SelectedItem as Search;
-            DisplayAlert("Selected", search.Location, "OK");
+            //DisplayAlert("Selected", search.Location, "OK");
+            //make the new details page bind to the respective search
+            Detail = new NavigationPage(new DetailsPage(search)); //wrapped in new navigationPage because we want the ability to return to the master page
+            IsPresented = false; //so that the master page shows first initially
         }
     }
 }
