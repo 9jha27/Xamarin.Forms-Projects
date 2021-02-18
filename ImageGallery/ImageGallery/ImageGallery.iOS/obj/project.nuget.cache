@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "2IAbmicXeQgR4Q7TcufUJGwOYVndE//Mv1H5prDy/O0Swm8LYNtGsS2xabhcLLYshOZ/joy53W6zhJ1QEHAVFA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jina\\Desktop\\Xamarin.Forms Projects\\ImageGallery\\ImageGallery\\ImageGallery.iOS\\ImageGallery.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jina\\.nuget\\packages\\fontawesome\\4.7.0\\fontawesome.4.7.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

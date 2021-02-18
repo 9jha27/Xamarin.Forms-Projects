@@ -1,0 +1,14 @@
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ImageGallery\ImageGallery\ImageGallery\bin\Debug\netstandard2.0\ImageGallery.deps.json
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ImageGallery\ImageGallery\ImageGallery\bin\Debug\netstandard2.0\ImageGallery.dll
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ImageGallery\ImageGallery\ImageGallery\bin\Debug\netstandard2.0\ref\ImageGallery.dll
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ImageGallery\ImageGallery\ImageGallery\bin\Debug\netstandard2.0\ImageGallery.pdb
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ImageGallery\ImageGallery\ImageGallery\obj\Debug\netstandard2.0\ImageGallery.csprojAssemblyReference.cache
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ImageGallery\ImageGallery\ImageGallery\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ImageGallery\ImageGallery\ImageGallery\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ImageGallery\ImageGallery\ImageGallery\obj\Debug\netstandard2.0\ImageGallery.AssemblyInfoInputs.cache
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ImageGallery\ImageGallery\ImageGallery\obj\Debug\netstandard2.0\ImageGallery.AssemblyInfo.cs
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ImageGallery\ImageGallery\ImageGallery\obj\Debug\netstandard2.0\ImageGallery.csproj.CoreCompileInputs.cache
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ImageGallery\ImageGallery\ImageGallery\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ImageGallery\ImageGallery\ImageGallery\obj\Debug\netstandard2.0\ImageGallery.dll
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ImageGallery\ImageGallery\ImageGallery\obj\Debug\netstandard2.0\ref\ImageGallery.dll
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ImageGallery\ImageGallery\ImageGallery\obj\Debug\netstandard2.0\ImageGallery.pdb
