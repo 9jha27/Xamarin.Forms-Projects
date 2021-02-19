@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="InstagramApp.ActivityPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ic="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+    Title="Activitiy Feed">
+
+    <ListView x:Name="listView" ItemSelected="listView_ItemSelected">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <ic:CircleImage
+                            Aspect="AspectFill"
+                            HeightRequest="30"
+                            Source="{Binding ImageUrl}"
+                            WidthRequest="30" />
+                        <Label Text="{Binding Description}" />
+                    </StackLayout>
+                </ViewCell>
+
+
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+</ContentPage>

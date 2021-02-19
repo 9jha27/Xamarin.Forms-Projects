@@ -1,0 +1,17 @@
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\InstagramApp\InstagramApp\InstagramApp\bin\Debug\netstandard2.0\InstagramApp.deps.json
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\InstagramApp\InstagramApp\InstagramApp\bin\Debug\netstandard2.0\InstagramApp.dll
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\InstagramApp\InstagramApp\InstagramApp\bin\Debug\netstandard2.0\ref\InstagramApp.dll
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\InstagramApp\InstagramApp\InstagramApp\bin\Debug\netstandard2.0\InstagramApp.pdb
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\InstagramApp\InstagramApp\InstagramApp\obj\Debug\netstandard2.0\InstagramApp.csprojAssemblyReference.cache
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\InstagramApp\InstagramApp\InstagramApp\obj\Debug\netstandard2.0\ActivityPage.xaml.g.cs
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\InstagramApp\InstagramApp\InstagramApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\InstagramApp\InstagramApp\InstagramApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\InstagramApp\InstagramApp\InstagramApp\obj\Debug\netstandard2.0\InstagramApp.AssemblyInfoInputs.cache
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\InstagramApp\InstagramApp\InstagramApp\obj\Debug\netstandard2.0\InstagramApp.AssemblyInfo.cs
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\InstagramApp\InstagramApp\InstagramApp\obj\Debug\netstandard2.0\InstagramApp.csproj.CoreCompileInputs.cache
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\InstagramApp\InstagramApp\InstagramApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\InstagramApp\InstagramApp\InstagramApp\obj\Debug\netstandard2.0\InstagramApp.dll
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\InstagramApp\InstagramApp\InstagramApp\obj\Debug\netstandard2.0\ref\InstagramApp.dll
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\InstagramApp\InstagramApp\InstagramApp\obj\Debug\netstandard2.0\InstagramApp.pdb
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\InstagramApp\InstagramApp\InstagramApp\obj\Debug\netstandard2.0\UserProfilePage.xaml.g.cs
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\InstagramApp\InstagramApp\InstagramApp\obj\Debug\netstandard2.0\MyProfilePage.xaml.g.cs
