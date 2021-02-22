@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QcbsWEBvMr26Pa+tzWf+pIlIbgi+T7t8pmbjzk/0JVgO03VEfhns80++7UFT83cnIQQd5JWqbSMmJjSnpWXsIA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jina\\Desktop\\Xamarin.Forms Projects\\ContactBookApp\\ContactBookApp\\ContactBookApp.iOS\\ContactBookApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ContactBookApp\ContactBookApp\ContactBookApp\bin\Debug\netstandard2.0\ContactBookApp.deps.json
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ContactBookApp\ContactBookApp\ContactBookApp\bin\Debug\netstandard2.0\ContactBookApp.dll
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ContactBookApp\ContactBookApp\ContactBookApp\bin\Debug\netstandard2.0\ref\ContactBookApp.dll
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ContactBookApp\ContactBookApp\ContactBookApp\bin\Debug\netstandard2.0\ContactBookApp.pdb
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ContactBookApp\ContactBookApp\ContactBookApp\obj\Debug\netstandard2.0\ContactBookApp.csprojAssemblyReference.cache
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ContactBookApp\ContactBookApp\ContactBookApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ContactBookApp\ContactBookApp\ContactBookApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ContactBookApp\ContactBookApp\ContactBookApp\obj\Debug\netstandard2.0\ContactBookApp.AssemblyInfoInputs.cache
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ContactBookApp\ContactBookApp\ContactBookApp\obj\Debug\netstandard2.0\ContactBookApp.AssemblyInfo.cs
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ContactBookApp\ContactBookApp\ContactBookApp\obj\Debug\netstandard2.0\ContactBookApp.csproj.CoreCompileInputs.cache
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ContactBookApp\ContactBookApp\ContactBookApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ContactBookApp\ContactBookApp\ContactBookApp\obj\Debug\netstandard2.0\ContactBookApp.dll
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ContactBookApp\ContactBookApp\ContactBookApp\obj\Debug\netstandard2.0\ref\ContactBookApp.dll
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ContactBookApp\ContactBookApp\ContactBookApp\obj\Debug\netstandard2.0\ContactBookApp.pdb
+C:\Users\Jina\Desktop\Xamarin.Forms Projects\ContactBookApp\ContactBookApp\ContactBookApp\obj\Debug\netstandard2.0\ContactDetailsPage.xaml.g.cs
