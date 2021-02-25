@@ -1,9 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "QcbsWEBvMr26Pa+tzWf+pIlIbgi+T7t8pmbjzk/0JVgO03VEfhns80++7UFT83cnIQQd5JWqbSMmJjSnpWXsIA==",
+  "dgSpecHash": "cNoqbRC/2EjEfp+C0BHu5EruILTBU+dG1VIb4IUQxHseAmPLNSj6HAUmiJ42fAnTZUcAyn5aLOOh2ylIf8NhGA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jina\\Desktop\\Xamarin.Forms Projects\\ContactBookApp\\ContactBookApp\\ContactBookApp.iOS\\ContactBookApp.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Jina\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\Jina\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\Jina\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\Jina\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "C:\\Users\\Jina\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Jina\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Jina\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],

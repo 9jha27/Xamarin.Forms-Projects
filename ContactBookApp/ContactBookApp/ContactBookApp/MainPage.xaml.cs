@@ -1,4 +1,6 @@
 ﻿using ContactBookApp.Models;
+using ContactBookApp.Persistence;
+using SQLite;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -12,26 +14,42 @@ namespace ContactBookApp
 {
     public partial class MainPage : ContentPage
     {
+        //initialize SQLite connection
+        private SQLiteAsyncConnection _connection;
         //initialize the ContactService class to be able to access the list of contacts 
         private ObservableCollection<Contact> _contacts;      
 
         public MainPage()
         {
             InitializeComponent();
-            //display the properties and contacts hard-coded into the Contacts service 
-            _contacts = new ObservableCollection<Contact>
-            {
-                new Contact {Id=1, FirstName="Laura", LastName="Ha", Email="laura.ha@test.com", Phone="555-555-5555", IsBlocked=false},
-                new Contact {Id=2, FirstName="Tobi", LastName="Ha", Email="tobi.ha@tobi.com", Phone="222-222-2222", IsBlocked=false}
-            };
+
+            //establish the connection with sqlite
+            _connection = DependencyService.Get<ISQLiteDb>().GetConnection();
+        }
+
+        protected override async void OnAppearing()
+        {
+            await LoadData();
+
+            base.OnAppearing();
+        }
+
+        private async Task LoadData()
+        {
+            //create a table for your database
+            await _connection.CreateTableAsync<Contact>();
+
+            //get the list from the table
+            var contacts = await _connection.Table<Contact>().ToListAsync();
+            _contacts = new ObservableCollection<Contact>(contacts);
 
             contactList.ItemsSource = _contacts;
+
         }
 
         //When Add button in toolbar is clicked - OnAddContact
         async void OnAddContact(object sender, EventArgs e)
         {
-            _contacts = new ObservableCollection<Contact>();
             var page = new ContactDetailsPage(new Contact());
 
             //subscribe to the ContactAdded event delegated by EventHandler<Contact> in ContactDetailsPage.xaml.cs
@@ -70,15 +88,19 @@ namespace ContactBookApp
             await Navigation.PushAsync(page);
         }
 
+        
+
         //when Delete is clicked, 
         async void OnDelete(object sender, EventArgs e)
         {
             var contact = (sender as MenuItem).CommandParameter as Contact;
             //if they accept:
-            if (await DisplayAlert("Delete", "Are you sure you want to delete this contact?", "Yes", "No"))
+            if (await DisplayAlert("Delete", $"Are you sure you want to delete {contact.FullName}?", "Yes", "No"))
             {
                 //remove from the observable collection Contact
                 _contacts.Remove(contact);
+
+                await _connection.DeleteAsync(contact);
             }
         }
     }

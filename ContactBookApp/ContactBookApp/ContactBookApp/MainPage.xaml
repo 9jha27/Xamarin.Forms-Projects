@@ -13,7 +13,7 @@
     <ListView x:Name="contactList" ItemSelected="Contact_Selected">
         <ListView.ItemTemplate>
             <DataTemplate>
-                <TextCell Text="{Binding FirstName}">
+                <TextCell Text="{Binding FullName}">
                     <TextCell.ContextActions>
                         <MenuItem
                             Clicked="OnDelete"

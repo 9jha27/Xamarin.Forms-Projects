@@ -1,6 +1,9 @@
 ﻿using ContactBookApp.Models;
+using ContactBookApp.Persistence;
+using SQLite;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,9 +16,12 @@ namespace ContactBookApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ContactDetailsPage : ContentPage
     {
+        
         //create event delegates to reference respective methods
         public event EventHandler<Contact> ContactAdded; //ContactAdded method
         public event EventHandler<Contact> ContactUpdated; //ContactUpdated method
+
+        private SQLiteAsyncConnection _connection;
 
         public ContactDetailsPage(Contact contact)
         {
@@ -24,6 +30,8 @@ namespace ContactBookApp
                 throw new ArgumentNullException(nameof(contact));
             }
             InitializeComponent();
+
+            _connection = DependencyService.Get<ISQLiteDb>().GetConnection();
 
             //you can't just bind the context to the ContactService you created. you must bind it to a new Contact object and it's properties
             BindingContext = new Contact { Id = contact.Id, FirstName = contact.FirstName, LastName = contact.LastName, Phone = contact.Phone, Email = contact.Email, IsBlocked = contact.IsBlocked };
@@ -46,13 +54,15 @@ namespace ContactBookApp
             //if it's a new contact, assign an id number to the new contact id
             if (contact.Id == 0)
             {
-                contact.Id +=3;
+                await _connection.InsertAsync(contact);
 
                 ContactAdded?.Invoke(this, contact);
             }
 
             else
             {
+                await _connection.UpdateAsync(contact);
+
                 ContactUpdated?.Invoke(this, contact);
             }
 
